@@ -56,20 +56,7 @@ export const Container = styled.section`
       flex-direction: column;
       div{
         width: 100%;
-        
       }
     }
   }
-  
 `
-/* old one - 2/1/2023 - 
-@media(max-width: 960px){
-    .contacts{
-      flex-direction: column;
-      div{
-        width: 100%;
-        flex-direction: column;
-      }
-    }
-
-*/
