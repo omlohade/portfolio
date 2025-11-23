@@ -1,16 +1,32 @@
-# Portfolio of Om Lohade
+# 🌐 Personal Portfolio Website — Om Lohade
 
-<img src ="image.png" />
- 
-This project was created with CRA (Create React App)
+This is my personal portfolio website built to showcase my projects, skills, experience, and education in a clean and modern interface.
 
-This is my portfolio website to introduce myself, here I put my skills, projects, and contact details.
+🔗 **Live Portfolio:**  
+https://portfolio-git-main-om-lohades-projects.vercel.app/
+
+## 📸 Preview
+
+![Portfolio Screenshot](./image.png)
 
 ## Technologies used:
+
 - React
 - Typescript
 - Styled Components
- 
+- Animate on Scroll (AOS)
+
+## ⚙️ Running the Project Locally
+
+```bash
+git clone https://github.com/omlohade/portfolio.git
+cd portfolio
+yarn install
+yarn start
+
+
+
 ## To run this project:
 - yarn install
 - yarn run start
+```
