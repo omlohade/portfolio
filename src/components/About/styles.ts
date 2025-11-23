@@ -3,23 +3,43 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 12rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 4rem;
+  align-items: center;
 
   .hard-skills{
     margin-top: 1.6rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.8rem;
+    gap: 2rem;
   }
   .hability{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1.2rem;
+    background: rgba(35, 206, 107, 0.1);
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
 
     img{
-      width: 3.4rem;
+      width: 4rem;
+      height: 4rem;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover{
+      background: rgba(35, 206, 107, 0.2);
+      border-color: var(--green);
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(35, 206, 107, 0.3);
+
+      img{
+        transform: scale(1.1) rotate(5deg);
+      }
     }
   }
 
@@ -41,6 +61,8 @@ export const Container = styled.section`
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
+    text-align: justify;
+    line-height: 1.8;
   }
   
   
@@ -49,11 +71,19 @@ export const Container = styled.section`
     text-align: center;
    img{
      margin-top: 2rem;
-     width: 75%;
+     width: 60%;
+     max-width: 400px;
+     height: auto;
+     border-radius: 50%;
+     border: 2px solid var(--green);
      filter: grayscale(0);
-     transition: filter 0.5s;
+     transition: all 0.5s ease;
+     box-shadow: 0 5px 2px rgba(35, 206, 107, 0.3);
      &:hover{
        filter: grayscale(0);
+       transform: scale(1.05);
+       box-shadow: 0 10px 30px rgba(35, 206, 107, 0.5);
+       border-color: var(--pink);
      }
    }
   }
@@ -64,11 +94,13 @@ export const Container = styled.section`
       margin-top: 4rem;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 70%;
+        max-width: 300px;
         filter: grayscale(0);
-        transition: filter 0.5s;
+        transition: all 0.5s ease;
         &:hover{
           filter: grayscale(0);
+          transform: scale(1.05);
         }
     }
   }
@@ -82,14 +114,18 @@ export const Container = styled.section`
     }
     .about-image{
       display: flex;
+      justify-content: center;
       max-width: 100%;
+      margin-top: 3rem;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 60%;
+        max-width: 350px;
         filter: grayscale(0);
-        transition: filter 0.5s;
+        transition: all 0.5s ease;
         &:hover{
           filter: grayscale(0);
+          transform: scale(1.05);
         }
     }
     

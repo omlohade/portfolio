@@ -4,19 +4,6 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
 export function Main() {
   return (
@@ -151,72 +138,72 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": cssIcon,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": shopify,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": htmlIcon,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": jsIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": python,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": java,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": reactIcon,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": typescriptIcon,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
-                  "src": vueIcon,
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
                   "width": 20,
                   "height": 20
                 },

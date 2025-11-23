@@ -1,123 +1,162 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import OmPhoto from "../../assets/myimg.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
   return (
     <Container id="about">
       <div className="about-text">
+
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={100}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Om, an enthusiastic Software Engineer skilled in full-stack development, Generative AI, and scalable software solutions.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={200} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I build responsive web applications, fine-tune ML models, implement robust backend services, and engineer advanced Generative AI solutions.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={300}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            I also deploy applications on cloud platforms, optimize end-to-end ML workflows, and streamline automation using modern backend and DevOps practices.
           </p>
         </ScrollAnimation>
+
+        {/* ===== EDUCATION ===== */}
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
-          </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
-          <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+            <h4>Bachelor in Technology (B.Tech)</h4>
+            <p>Vishwakarma Institute of Technology, Pune | July 2023 - Present</p>
+            <p>9.15 CGPA</p>
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        {/* ===== EXPERIENCE ===== */}
+        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+          <div className="experience">
+            <h3>Experience:</h3>
+            <h4>AI Software Developer Intern</h4>
+            <p>UDNAV Software (Eduplus Campus) | June 2024 - Dec 2024</p>
+            <p>Pune</p>
+          </div>
+        </ScrollAnimation>
+
+        {/* ===== SKILL HEADER ===== */}
+        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
+
+        {/* ===== SKILL ICON GRID ===== */}
         <div className="hard-skills">
+
+          {/* === AI / ML === */}
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={python} alt="python" />
+            <ScrollAnimation animateIn="fadeInUp" delay={100}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
-              <img src={java} alt="java" />
+            <ScrollAnimation animateIn="fadeInUp" delay={110}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={120}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" />
             </ScrollAnimation>
           </div>
+
+          {/* === Backend === */}
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={reactIcon} alt="React" />
+            <ScrollAnimation animateIn="fadeInUp" delay={130}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={140}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" />
             </ScrollAnimation>
           </div>
+
+          {/* === Databases === */}
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+            <ScrollAnimation animateIn="fadeInUp" delay={150}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+            <ScrollAnimation animateIn="fadeInUp" delay={160}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
             </ScrollAnimation>
           </div>
+
+          {/* === DevOps / Cloud === */}
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={shopify} alt="shopify" />
+            <ScrollAnimation animateIn="fadeInUp" delay={170}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={htmlIcon} alt="Html" />
+            <ScrollAnimation animateIn="fadeInUp" delay={180}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={cssIcon} alt="Css" />
+            <ScrollAnimation animateIn="fadeInUp" delay={190}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
             </ScrollAnimation>
           </div>
+
+          {/* === Frontend === */}
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
+            <ScrollAnimation animateIn="fadeInUp" delay={200}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
             </ScrollAnimation>
           </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={210}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={220}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={230}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+            </ScrollAnimation>
+          </div>
+
         </div>
+
       </div>
+
+      {/* ===== PROFILE IMAGE ===== */}
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+        <ScrollAnimation animateIn="fadeInRight" delay={210}>
+          <img src={OmPhoto} alt="Om Lohade" />
         </ScrollAnimation>
       </div>
+
     </Container>
-  )
+  );
 }
