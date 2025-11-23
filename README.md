@@ -24,8 +24,6 @@ cd portfolio
 yarn install
 yarn start
 
-
-
 ## To run this project:
 - yarn install
 - yarn run start

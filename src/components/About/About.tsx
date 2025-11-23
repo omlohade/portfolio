@@ -39,16 +39,6 @@ export function About() {
           </div>
         </ScrollAnimation>
 
-        {/* ===== EXPERIENCE ===== */}
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
-          <div className="experience">
-            <h3>Experience:</h3>
-            <h4>AI Software Developer Intern</h4>
-            <p>UDNAV Software (Eduplus Campus) | June 2024 - Dec 2024</p>
-            <p>Pune</p>
-          </div>
-        </ScrollAnimation>
-
         {/* ===== SKILL HEADER ===== */}
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <h3>Here are my main skills:</h3>
